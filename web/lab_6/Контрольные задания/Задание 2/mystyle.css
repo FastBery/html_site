@@ -1,0 +1,235 @@
+/* задаём параметры всего документа */
+*{
+margin: 0; /* оступы 0 */
+padding: 0; /* поля 0 */
+border: 0; /* рамка 0 */
+}
+
+body{
+font-family: "Ariel", Courier, monospace; /* шрифт документа */
+color: #000000; /* цвет шрифта */
+padding: 0; /* поля 0 */
+background: #FFFFFF; /* фон документа белый */
+}
+
+#conteiner { /* создаёи контейнер */
+width: 900px; /* ширина контейнера */
+margin: 0 auto; /* отступы сверху и снизу 0 справа и слева автоматически */
+}
+#header{
+background: url(shapka_div.jpg) no-repeat;
+width: 900px;
+height: 193px;
+}
+
+#left_bar {
+    background:#cdffff;
+	width: 30%; 
+    height: 750px; 
+    float: left; 
+}
+#mini_container {
+    display: block; /* Блок для всей группы */
+    margin: 20px 0; /* Отступы сверху и снизу */
+    overflow: hidden; /* Убираем вылазящие элементы */
+}
+
+#mini {
+    background: url(mini_dom.jpg) no-repeat;
+    background-size: cover; 
+    width: 80px;
+    height: 80px;
+    float: left; /* Картинка выравнивается по левому краю */
+    margin-right: 15px; /* Отступ справа от картинки */
+}
+
+#text_container {
+    float: left;
+}
+#text_container a{
+color: #f8611c;
+ text-decoration: none;
+}
+#text_container a:hover{
+color: #130b7a;
+ text-decoration: none;
+}
+#text a{
+color: #720502;
+text-decoration: none;
+}
+#text a:hover{
+color: #130b7a;
+text-decoration: none;
+}
+#text_container h2 {
+    color: #f8611c; 
+    font-size: 28px; 
+    margin-bottom: 10px; 
+	font-weight: bold
+}
+
+#text_container p {
+    color: #f8611c; 
+    font-size: 18px; 
+	font-weight: bold
+}
+#zakaz p{
+	color: #0202ff;
+	font-weight: bold;
+	margin-left: 10px;
+}
+#spiski {
+	color: #720502;
+	font-weight: bold;
+}
+#spiski p{
+margin: 10px 10px 10px 10px;
+}
+#spiski ol{
+margin: 10px 10px 10px 30px;
+}
+#spiski ul{
+margin: 10px 10px 10px 30px;
+}
+#main {
+    position: relative;
+    background: #fff; 
+    width: 70%; 
+	height: 750px; 
+    float: left; 
+	color:#130b7a;
+	font-weight: bold;
+}
+#text_block {
+    padding: 20px 0; /* Внутренние отступы сверху и снизу */
+}
+#text_block h3, 
+#text_block h2, 
+#text_block p {
+    margin-bottom: 15px; /* Отступ снизу для каждого элемента */
+	margin-left: 15px;
+}
+#text_block p {
+    line-height: 1.5; /* Интерлиньяж для читаемости текста */
+}
+#dom{
+    display: block; /* Блок для всей группы */
+	margin-left: 15px;
+}
+#dom1{
+    background: url(dom1.jpg) no-repeat;
+    background-size: cover; 
+    width: 300px;
+    height: 200px;
+	position: absolute;
+	border: 5px solid #fff;
+}
+#dom1_0{
+    background: url(dom1.jpg) no-repeat;
+    background-size: cover; 
+    width: 300px;
+    height: 200px;
+	position: absolute;
+	border: 5px solid #fff;
+}
+#dom2{
+    background: url(dom2.jpg) no-repeat;
+    background-size: cover; 
+    width: 300px;
+    height: 200px;
+	position: relative;
+	left: 150px;
+	top: 50px;
+	border: 5px solid #fff;
+}
+#dom2_0{
+    background: url(dom2.jpg) no-repeat;
+    background-size: cover; 
+    width: 300px;
+    height: 200px;
+	position: relative;
+	left: 300px;
+	top: 0;
+	border: 5px solid #fff;
+}
+#dom2_1{
+    background: url(dom2.jpg) no-repeat;
+    background-size: cover; 
+    width: 300px;
+    height: 200px;
+	position: absolute;
+	border: 2.5px solid #fff;
+}
+#dom3{
+    background: url(dom3.jpg) no-repeat;
+    background-size: cover; 
+    width: 300px;
+    height: 200px;
+	position: relative;
+	left: 200px;
+	top: 50px;
+	border: 5px solid #fff;
+}
+#dom_niz{
+    display: block; /* Блок для всей группы */
+	margin-left: 15px;
+	margin-top: 75px;
+}
+#dom4{
+    background: url(dom4.jpg) no-repeat;
+    background-size: cover; 
+    width: 300px;
+    height: 200px;
+	position: absolute;
+	border: 5px solid #fff;
+}
+#dom4_0{
+    background: url(dom4.jpg) no-repeat;
+    background-size: cover; 
+    width: 300px;
+    height: 200px;
+	position: absolute;
+	border: 5px solid #fff;
+}
+#dom5{
+    background: url(dom5.jpg) no-repeat;
+    background-size: cover; 
+    width: 300px;
+    height: 200px;
+	position: relative;
+	left: 150px;
+	top: 50px;
+	border: 2.5px solid #fff;
+}
+#dom5_0{
+	background: url(dom5.jpg) no-repeat;
+    background-size: cover; 
+    width: 300px;
+    height: 200px;
+	position: relative;
+	left: 300px;
+	top: 0;
+	border: 5px solid #fff;
+}
+#dom5_1{
+    background: url(dom5.jpg) no-repeat;
+    background-size: cover; 
+    width: 300px;
+    height: 200px;
+	position: absolute;
+	border: 2.5px solid #fff;
+}
+#dom6{
+    background: url(dom6.jpg) no-repeat;
+    background-size: cover; 
+    width: 300px;
+    height: 200px;
+	position: relative;
+	left: 200px;
+	top: 50px;
+	border: 5px solid #fff;
+}
+.clear {
+    clear: both; /* запрет обтекания с обеих сторон */
+}

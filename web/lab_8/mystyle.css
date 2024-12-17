@@ -1,0 +1,125 @@
+/* задаём параметры всего документа */
+*{
+margin: 0; /* оступы 0 */
+padding: 0; /* поля 0 */
+border: 0; /* рамка 0 */
+}
+
+body{
+font-family: "Ariel", Courier, monospace; /* шрифт документа */
+color: #000000; /* цвет шрифта */
+padding: 0; /* поля 0 */
+background: #FFFFFF; /* фон документа белый */
+}
+#conteiner { /* создаёи контейнер */
+width: 1350px; /* ширина контейнера */
+margin: 0 auto; /* отступы сверху и снизу 0 справа и слева автоматически */
+}
+
+#top1 {
+    width: 675px; /* ширина шапки */
+    height: 200px; /* высота шапки */
+    background: url(pig1.jpg) no-repeat; /* фоновый цвет */
+    text-align: center; /* выравнивание текста по центру блока */
+	float: left;
+}
+#header{
+background: url(header.jpg) no-repeat;
+width: 760px;
+height: 158px;
+}
+#top2 {
+    width: 675px; /* ширина шапки */
+    height: 200px; /* высота шапки */
+    background: url(pig2.jpg) no-repeat; /* фоновый цвет */
+    text-align: center; /* выравнивание текста по центру блока */
+	float: left;
+}
+
+
+#left_bar {
+    background:skyblue; /* фон блока выбран условно */
+	width: 25%; /* ширина блока */
+    height: 525px; /* высота блока выбран условно */
+    float: left; /* обтекание других блоков и элементов слева */
+	
+	
+}
+#zakaz p{
+	color: #0202ff;
+	font-weight: bold;
+	margin-left: 10px;
+}
+#spiski {
+	color: #720502;
+	font-weight: bold;
+}
+#spiski p{
+margin: 10px 10px 10px 10px;
+}
+#spiski ol{
+margin: 10px 10px 10px 30px;
+}
+#spiski ul{
+margin: 10px 10px 10px 30px;
+}
+#main {
+    position: relative; 
+    width: 1012px; 
+	height: 525px; 
+    float: left;
+	text-align: center;
+	background: url(pig4.jpg) no-repeat;
+}
+#main p{
+	margin: 400px 0px 0px 0px;
+	color: #000;
+	font-size: 20px;
+}
+.center_block {
+    width: 300px;
+    height: 100px;
+	position: absolute;
+	font-size: 25px;
+}
+
+#center_1 {
+    top: 50px;
+    left: 450px;
+	background: #fff;
+	color: #000;
+}
+
+#center_2 {
+    top: 100px;
+    left: 600px;
+	background: #000;
+	color: #FFF;
+}
+#text_text{
+	margin: 25px 0px 0px 0px;
+}
+.clear {
+    clear: both; /* запрет обтекания с обеих сторон */
+}
+
+#footer {
+    width: 1340px; /* ширина футера */
+    height: 120px; /* высота футера */
+	background: #665;
+	color: #fff;
+	font-size: 20px;
+	padding: 5px;
+	clear: both;
+}
+	#footer a{
+	color: #03d2ff;
+	text-decoration: none;
+}
+	#footer a:hover{
+	color: #ff0;
+}
+	#footer p{
+	padding: 2px;
+	text-align: center;
+}  

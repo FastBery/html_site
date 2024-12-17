@@ -1,0 +1,126 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Arial", Courier, monospace;
+    background: #FFFFFF;
+    color: #000;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* Верхняя часть */
+#top {
+    width: 900px;
+    height: 200px;
+    background: url(2014.jpg) no-repeat;
+    text-align: center;
+	float: left;
+}
+
+
+/* Левая колонка */
+#left_bar {
+    background:#000; 
+	width: 250px; 
+    height: 550px; 
+    float: left; 
+	position: relative;
+}
+
+.left_block {
+	width: 200px; 
+    height: 100px;
+    text-align: center;
+	position: absolute;
+	left: 25px;
+}
+#left_1 {
+    top: 32.5px;
+	background: url(1.jpg) no-repeat;
+}
+
+#left_2 {
+    top: 177.5px;
+	background: url(2.jpg) no-repeat;
+}
+
+#left_3 {
+    top: 322.5px;
+	background: url(3.jpg) no-repeat;
+}
+
+/* Центральная часть */
+#main{
+    position: relative;
+    background: #b3b3b3; 
+    width: 650px; 
+	height: 450px; 
+    float: left;
+}
+
+.center_block {
+    width: 300px;
+    height: 100px;
+	position: absolute;
+}
+.text_block{
+	width: 650px;
+    height: 100px;
+	position: absolute;
+	top: 220px;
+	font-family: "Segoe UI", Arial, sans-serif;
+}
+#center_1 {
+    top: 50px;
+    left: 50px;
+	background: url(12.jpg) no-repeat;
+}
+
+#center_2 {
+    top: 100px;
+    left: 100px;
+	background: url(13.jpg) no-repeat;
+}
+/* Нижняя часть */
+.footer{
+background: #665;
+color: #fff;
+width: 650px;
+height: 100px;
+text-align: center;
+float: right;
+}
+
+#nav{
+color: #808080;
+font-weight: bold;
+line-height: 1.8em;
+text-align: center;
+}
+#nav ul{
+list-style-type: none;
+color: #020028;
+}
+#nav li{
+display: inline;
+}
+#nav li a{
+color: #b3b3b3;
+}
+#nav li a:hover{
+color: #020028;
+}
+a{
+text-decoration: none;
+}
+
+
+	
