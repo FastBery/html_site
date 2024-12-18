@@ -1,0 +1,40 @@
+#top {
+    width: 900px; /* ширина шапки */
+    height: 140px; /* высота шапки */
+    background: #FF0000; /* фоновый цвет */
+    text-align: center; /* выравнивание текста по центру блока */
+}
+
+#left_bar {
+    background:#009900; /* фон блока выбран условно */
+	width: 160px; /* ширина блока */
+    height: 350px; /* высота блока выбран условно */
+    float: left; /* обтекание других блоков и элементов слева */
+}
+
+#main {
+    position: relative;
+    background: #006699; 
+    width: 580px; 
+	height: 350px; 
+    float: left; 
+}
+
+#right_bar {
+    background: #006600; /* ширина шапки */
+	width: 160px; 
+	height: 350px; 
+    float: right; /* обтекание других блоков и элементов справа */
+}
+
+.clear {
+    clear: both; /* запрет обтекания с обеих сторон */
+}
+
+#footer {
+    width: 900px; /* ширина футера */
+    height: 100px; /* высота футера */
+    background: #010080; /* синий фон */
+    color: #FFFFFF; /* белый цвет текста */
+    text-align: center; /* выравнивание текста по центру */
+}
