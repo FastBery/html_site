@@ -1,0 +1,21 @@
+.custom-block {
+    border: 2px solid #007bff;
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+.mia{
+	margin: 20px 0;
+	
+}
+.row:nth-child(even) .custom-block {
+    border-color: #28a745;
+    background-color: #dff0d8;
+}
+
+.row:nth-child(odd) .custom-block {
+    border-color: #ffc107;
+    background-color: #fff3cd;
+}
+
