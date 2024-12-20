@@ -39,7 +39,7 @@ margin: 0 8px;
 color: #252525;
 }
 #nav li a:hover{
-color: #020028;
+color: #0900b3;
 }
 a{
 text-decoration: none;
@@ -71,7 +71,7 @@ margin: 0;
 padding: 0 20px;
 }
 #text a{
-color: #396;
+color: rgb(17, 78, 48);
 }
 #text a:hover{
 color: rgb(133, 0, 33);
