@@ -9,6 +9,7 @@
 	margin: 20px 0;
 	
 }
+
 .row:nth-child(even) .custom-block {
     border-color: #28a745;
     background-color: #dff0d8;
